@@ -194,7 +194,7 @@
     ]
   },
   {
-    "question": "A database has two tables: SafetyViolations, and Labs. SafetyViolation's columns are ViolationID, Date, and LabID; Lab's columns are LabID, PIName, and Location. Write an SQL statement that outputs the PI name for each lab that has had no more than 2 safety violations.",
+    "question": "You have tables: SafetyViolations with columns ViolationID, Date, and LabID; and table Lab with columns LabID, PIName, and Location. Write an SQL query to obtain the PIName for each lab that has had no more than 2 safety violations.",
     "responsetype": "singlechoice",
     "options": [
       "I could not complete this task.",
