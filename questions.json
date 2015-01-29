@@ -1,0 +1,230 @@
+[
+  {
+    "question": "What is your name? (Optional)",
+    "responsetype": "textbox",
+    "options":"enter name"
+  },
+  {
+    "question": "What is your email? (Optional)",
+    "responsetype": "textbox",
+    "options": "enter email address"
+  },
+  {
+    "question": "With which programming languages could you write a program from scratch that reads a column of numbers from a text file and calculates mean and standard deviation of that data?",
+    "responsetype": "multichoice",
+    "options": [
+      "C",
+      "C++",
+      "Perl",
+      "MATLAB",
+      "Python",
+      "R",
+      "Java",
+      "Other(s)",
+      "I do not use any programming languages."
+    ]
+  },
+  {
+    "question": "What best describes how often you currently program?",
+    "responsetype": "singlechoice",
+    "options": [
+      "I have never programmed.",
+      "I program less than one a year.",
+      "I program once a year.",
+      "I program several times a year.",
+      "I program once a month.",
+      "I program once a week or more."
+    ]
+  },
+  {
+    "question": "What best describes the complexity of your programming? (Choose all that apply.)",
+    "responsetype": "multichoice",
+    "options": [
+      "I have never programmed.",
+      "I write scripts to analyze data.",
+      "I write programs for my own use that others also use, but am not primarily a programmer.",
+      "I am primarily a programmer."
+    ]
+  },
+  {
+    "question": "What version control system was used in your workshop?",
+    "responsetype": "multichoice",
+    "options": [
+      "None",
+      "Subversion",
+      "Git",
+      "Mercurial",
+      "Other(s)"
+    ]
+  },
+  {
+    "question": "What programming language was used in your workshop?",
+    "responsetype": "multichoice",
+    "options": [
+      "None",
+      "Python",
+      "R",
+      "Other(s)"
+    ]
+  },
+  {
+    "question": " How well did the following technology work in your workshop?",
+    "responsetype": "matrix",
+    "options": {
+      "levels": [
+        "Did not use",
+        "No problems",
+        "Some problems",
+        "Lots of problems"
+      ],
+      "categories": [
+        "Anaconda, on participant's machine",
+        "Canopy, on participant's machine",
+        "Python (other), on participant's machine",
+        "R, on participant's machine",
+        "Cygwin for Windows, on participant's machine",
+        "Git Bash for Windows, on participant's machine",
+        "Command-line version control, on participant's machine",
+        "Version control GUI, on participant's machine",
+        "VM, on participant's machine",
+        "Site-provided machine",
+        "Remote machine"
+      ]
+    }
+  },
+  {
+    "question": "Were there any problems encountered during the following topics?",
+    "responsetype": "matrix",
+    "options": {
+      "levels": [
+        "Did not use",
+        "No problems",
+        "Some problems",
+        "Lots of problems"
+      ],
+      "categories": [
+        "Shell",
+        "Programming",
+        "Version control",
+        "Regular Expressions",
+        "SQL",
+        "Debugging",
+        "Testing",
+        "Documentation"
+      ]
+    }
+  },
+  {
+    "question": "Please indicate the pacing of instruction.",
+    "responsetype": "matrix",
+    "options": {
+      "levels": [
+        "Did not use",
+        "Too slow",
+        "Just right",
+        "Too fast"
+      ],
+      "categories": [
+        "Shell",
+        "Programming",
+        "Version control",
+        "Regular Expressions",
+        "SQL",
+        "Debugging",
+        "Testing",
+        "Documentation"
+      ]
+    }
+  },
+  {
+    "question": " A comma-delimited file has two columns showing the date and the number of sun spots recorded for that day. Write a program to produce a graph showing the average number of sun spots for each month.",
+    "responsetype": "singlechoice",
+    "options": [
+      "I could not complete this task.",
+      "I could complete the task with documentation or search engine help.",
+      "I could complete the task with little or no documentation or search engine help."
+    ]
+  },
+  {
+    "question": "How familiar do you think you are with the version control sytem used in your workshop?",
+    "responsetype": "singlechoice",
+    "options": [
+      "I am not familiar with it.",
+      "I am familiar only with the name.",
+      "I am familiar with it but have not used it.",
+      "I am familiar with it because I have used it or am using it."
+    ]
+  },
+  {
+    "question": "Given the URL for a project's version control repository, check out a working copy of that project, start a new branch called Testing, add a file called README.txt, and commit the change.",
+    "responsetype": "singlechoice",
+    "options": [
+      "I could not complete this task.",
+      "I could complete the task with documentation or search engine help.",
+      "I could complete the task with little or no documentation or search engine help."
+    ]
+  },
+  {
+    "question": "How familiar do you think you are with unit testing and code coverage?",
+    "responsetype": "singlechoice",
+    "options": [
+      "I am not familiar with it.",
+      "I am familiar only with the name.",
+      "I am familiar with it but have not used it.",
+      "I am familiar with it because I have used it or am using it."
+    ]
+  },
+  {
+    "question": "Given a 200-line function to test, write half a dozen tests using a unit testing framework and use code coverage to check that they exercise every line of the function.",
+    "responsetype": "singlechoice",
+    "options": [
+      "I could not complete this task.",
+      "I could complete the task with documentation or search engine help.",
+      "I could complete the task with little or no documentation or search engine help."
+    ]
+  },
+  {
+    "question": "How familiar do you think you are with SQL?",
+    "responsetype": "singlechoice",
+    "options": [
+      "I am not familiar with it.",
+      "I am familiar only with the name.",
+      "I am familiar with it but have not used it.",
+      "I am familiar with it because I have used it or am using it."
+    ]
+  },
+  {
+    "question": "A database has two tables: SafetyViolations, and Labs. SafetyViolation's columns are ViolationID, Date, and LabID; Lab's columns are LabID, PIName, and Location. Write an SQL statement that outputs the PI name for each lab that has had no more than 2 safety violations.",
+    "responsetype": "singlechoice",
+    "options": [
+      "I could not complete this task.",
+      "I could complete the task with documentation or search engine help.",
+      "I could complete the task with little or no documentation or search engine help."
+    ]
+  },
+  {
+    "question": "How familiar do you think you are with the command line shell?",
+    "responsetype": "singlechoice",
+    "options": [
+      "I am not familiar with it.",
+      "I am familiar only with the name.",
+      "I am familiar with it but have not used it.",
+      "I am familiar with it because I have used it or am using it."
+    ]
+  },
+  {
+    "question": "How would you solve this problem? A directory contains 873 named text files. Create an alphabetical sorted list of all files beginning with '2009' and save the results as results.txt.",
+    "responsetype": "singlechoice",
+    "options": [
+      "I could not create this list.",
+      "I would create this list using 'Find in Files' and 'copy and paste'.",
+      "I would create this list using basic command line programs.",
+      "I would create this list using a pipeline of command line programs."
+    ]
+  },
+  {
+    "question": "Do you have any other feedback?",
+    "responsetype": "textarea",
+    "options": "Give us some recommendations!"
+  }
+]
